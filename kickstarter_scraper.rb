@@ -17,4 +17,7 @@ def create_project_hash
   project.css("p.bbcard_blurb").text
   # description: project.css("p.bbcard_blurb").text
   project.css("ul.project-meta span.location-name").text
+  
+  
+  
 end
