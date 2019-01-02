@@ -15,5 +15,5 @@ def create_project_hash
   project.css("div.project-thumbnail a img").attribute("src").value
   # image link: project.css("div.project-thumbnail a img").attribute("src").value
   project.css("p.bbcard_blurb").text
-  
+  # description: project.css("p.bbcard_blurb").text
 end
