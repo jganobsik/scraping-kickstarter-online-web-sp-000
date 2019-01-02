@@ -13,4 +13,5 @@ def create_project_hash
   project.css("h2.bbcard_name strong a").text
   # title: project.css("h2.bbcard_name strong a").text
   project.css("div.project-thumbnail a img").attribute("src").value
+  # image link: project.css("div.project-thumbnail a img").attribute("src").value
 end
